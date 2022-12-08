@@ -1,0 +1,30 @@
+{
+  "name": "rent-car-tdd-bdd",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js",
+    "seed": "node ./seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmv2205/rent-car-tdd-bdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmv2205/rent-car-tdd-bdd/issues"
+  },
+  "homepage": "https://github.com/lucasmv2205/rent-car-tdd-bdd#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "faker": "^5.1.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
