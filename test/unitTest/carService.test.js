@@ -1,12 +1,12 @@
 import { afterEach, beforeEach, describe, it } from 'mocha'
-import CarService from './../../src/service/carService.js'
+import CarService from '../../src/service/carService.js'
 import path from 'path'
 import {fileURLToPath} from 'url';
 import { expect } from 'chai';
 import sinon from 'sinon';
-import valid_carCategory from './../mocks/valid-carCategory.json'assert { type: "json" };
-import valid_car from './../mocks/valid-car.json'assert { type: "json" };
-import valid_customer from './../mocks/valid-customer.json'assert { type: "json" };
+import valid_carCategory from './../mocks/valid-carCategory.json' assert { type: "json" };
+import valid_car from './../mocks/valid-car.json' assert { type: "json" };
+import valid_customer from './../mocks/valid-customer.json' assert { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

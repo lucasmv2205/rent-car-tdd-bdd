@@ -1,12 +1,1 @@
-[
-  {
-    "id": "e8831efc-d400-45e1-88b5-ed9d486b68cd",
-    "name": "Cargo Van",
-    "carIds": [
-      "cc59cae4-2892-4d49-b6de-d92e47471ae6",
-      "3593a5a1-a0f5-43ed-898f-d62d744d2d90",
-      "257f3d6a-15e0-4d5b-b6fe-2c4cfb8df94c"
-    ],
-    "price": 58.56
-  }
-]
+[{"id":"b1edcf68-d3bc-4315-9434-d979128941e6","name":"Extended Cab Pickup","carIds":["87c9e8b7-0757-4612-8ea7-e7c076314a82","368be290-b4f3-44c7-a44c-bd6a3b66d85a","fe8293e9-c983-46bd-92a8-05aa7dd7a8aa"],"price":99.43}]
